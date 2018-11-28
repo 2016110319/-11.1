@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C6038F8521AE6B3100E5CB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6038F8421AE6B3100E5CB29 /* AppDelegate.swift */; };
-		C6038F8721AE6B3100E5CB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6038F8621AE6B3100E5CB29 /* ViewController.swift */; };
+		C6038F8721AE6B3100E5CB29 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6038F8621AE6B3100E5CB29 /* FirstViewController.swift */; };
 		C6038F8A21AE6B3100E5CB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6038F8821AE6B3100E5CB29 /* Main.storyboard */; };
 		C6038F8C21AE6B3200E5CB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6038F8B21AE6B3200E5CB29 /* Assets.xcassets */; };
 		C6038F8F21AE6B3200E5CB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6038F8D21AE6B3200E5CB29 /* LaunchScreen.storyboard */; };
+		C6038F9721AE6BA200E5CB29 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6038F9621AE6BA200E5CB29 /* SecondViewController.swift */; };
+		C6038F9921AE6BAC00E5CB29 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6038F9821AE6BAC00E5CB29 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6038F8121AE6B3100E5CB29 /* MultiMVCDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiMVCDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6038F8421AE6B3100E5CB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6038F8621AE6B3100E5CB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6038F8621AE6B3100E5CB29 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C6038F8921AE6B3100E5CB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6038F8B21AE6B3200E5CB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6038F8E21AE6B3200E5CB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6038F9021AE6B3200E5CB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6038F9621AE6BA200E5CB29 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C6038F9821AE6BAC00E5CB29 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				C6038F8421AE6B3100E5CB29 /* AppDelegate.swift */,
-				C6038F8621AE6B3100E5CB29 /* ViewController.swift */,
+				C6038F8621AE6B3100E5CB29 /* FirstViewController.swift */,
 				C6038F8821AE6B3100E5CB29 /* Main.storyboard */,
+				C6038F9621AE6BA200E5CB29 /* SecondViewController.swift */,
+				C6038F9821AE6BAC00E5CB29 /* ThirdViewController.swift */,
 				C6038F8B21AE6B3200E5CB29 /* Assets.xcassets */,
 				C6038F8D21AE6B3200E5CB29 /* LaunchScreen.storyboard */,
 				C6038F9021AE6B3200E5CB29 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6038F8721AE6B3100E5CB29 /* ViewController.swift in Sources */,
+				C6038F9721AE6BA200E5CB29 /* SecondViewController.swift in Sources */,
+				C6038F8721AE6B3100E5CB29 /* FirstViewController.swift in Sources */,
+				C6038F9921AE6BAC00E5CB29 /* ThirdViewController.swift in Sources */,
 				C6038F8521AE6B3100E5CB29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
