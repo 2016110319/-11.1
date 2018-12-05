@@ -10,26 +10,23 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    var name = ""
-    var no = ""
+    var stu: Student!
     
-    var delegate: StudentProtocol?
     
     @IBOutlet weak var tfNo: UITextField!
     @IBOutlet weak var tfName: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        tfNo.text = no
-        tfName.text = name
+        tfNo.text = stu.no
+        tfName.text = stu.name
         // Do any additional setup after loading the view.
     }
     
   
     @IBAction func back(_ sender: Any) {
-        no = tfNo.text!
-        name = tfName.text!
-        
-        delegate?.change(name: name, no: no)
+        stu.no = tfNo.text!
+        stu.name = tfName.text!
+
         
         navigationController?.popViewController(animated: true)
     }
